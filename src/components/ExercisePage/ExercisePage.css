@@ -1,0 +1,14 @@
+.exercisePageContent {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--pinkColor);
+    background: -webkit-linear-gradient(var(--pinkColor), #102736);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
