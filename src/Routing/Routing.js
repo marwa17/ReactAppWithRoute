@@ -9,9 +9,9 @@ import NotFoundPage from "../components/NotFoundPage/index.js";
 export default function Routing() {
     return (
         <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<ExercisePage />} />
+            <Route path="/home" element={<HomePage />} />
             <Route path="/details" element={<DetailsPage />} />
-            <Route path="/exercise" element={<ExercisePage />} />
             <Route path="*" element={<NotFoundPage />} />
         </Routes>
     );

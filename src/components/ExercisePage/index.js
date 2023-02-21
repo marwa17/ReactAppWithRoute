@@ -6,6 +6,7 @@ export default function ExercisePage() {
         <main className="exercisePageContent">
             <h1> React application </h1>
             <h2> React Router DOM </h2>
+            <p> with BrowserRouter and Routes</p>
         </main>
     );
 }

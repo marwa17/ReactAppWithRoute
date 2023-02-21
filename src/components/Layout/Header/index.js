@@ -9,12 +9,12 @@ export default function Header() {
             <nav className="navbar">
                 <ul>
                     <li>
-                        <Link to="/exercise">Exercise</Link>
+                        <Link to="/">Exercise</Link>
                     </li>
                 </ul>
                 <ul className="navLink">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/home">Home</Link>
                     </li>
                     <li>
                         <Link to="/details">Details</Link>
